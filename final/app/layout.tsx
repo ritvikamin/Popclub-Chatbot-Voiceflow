@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
                   v.onload = function() {
                     window.voiceflow.chat.load({
-                      verify: { projectID: '6866649b8fe6d30413964bac' },
+                      verify: { projectID: '690193c91b5e85da2f15c186' },
                       url: 'https://general-runtime.voiceflow.com',
                       versionID: 'production',
                       voice: {
